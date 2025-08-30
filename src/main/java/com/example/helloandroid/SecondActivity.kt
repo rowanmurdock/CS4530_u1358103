@@ -19,11 +19,14 @@ class SecondActivity : AppCompatActivity() {
             insets
         }
 
+        //create a button listener for the back button, which goes finishes the second activity and returns to the first one
         findViewById<Button>(R.id.back).setOnClickListener {
             finish()
         }
 
+        //create a button text variable using the extra data from the intent from main activity
         val buttonText = intent.getStringExtra("text")
+        //display button text from main onto the text display
         findViewById<TextView>(R.id.textDisplay).text = buttonText
     }
 }
