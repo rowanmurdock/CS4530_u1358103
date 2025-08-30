@@ -1,0 +1,1 @@
+Screenshots showing the main activity with 5 buttons, then the second activity after the first button is pressed and the third button is pressed.
